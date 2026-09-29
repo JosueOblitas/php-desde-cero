@@ -1,10 +1,10 @@
 # PHP desde cero
 
-Curso práctico de PHP 8.3 organizado en 18 temas. Cada tema contiene teoría para el navegador, tres ejercicios de dificultad creciente y un cuarto reto integrador. Cada ejercicio tiene pruebas PHPUnit.
+Curso práctico de PHP 8.2 organizado en 18 temas. Cada tema contiene teoría para el navegador, tres ejercicios de dificultad creciente y un cuarto reto integrador. Cada ejercicio tiene pruebas PHPUnit.
 
 ## Requisitos
 
-- PHP 8.3 o compatible con `^8.3`
+- PHP 8.2.12 o compatible con `^8.2`
 - Composer
 - Extensiones `mbstring` y `pdo_sqlite` para los temas de texto y bases de datos
 

@@ -141,7 +141,7 @@ $temas = [
 <body>
 <main class="shell">
     <header class="hero">
-        <p class="eyebrow">RUTA DE APRENDIZAJE · PHP 8.3</p>
+        <p class="eyebrow">RUTA DE APRENDIZAJE · PHP 8.2</p>
         <h1>PHP desde cero</h1>
         <p class="lead">Aprende un concepto, mira qué genera PHP y comprueba lo aprendido con una tarea y PHPUnit.</p>
         <div class="hero-meta"><span>18 temas · 72 ejercicios</span><span>De básico a avanzado y reto integrador</span></div>
