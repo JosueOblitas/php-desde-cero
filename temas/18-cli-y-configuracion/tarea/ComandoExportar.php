@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/18-cli-y-configuracion/tests/ComandoExportarTest.php
+
 final class ComandoExportar
 {
     public function ejecutar(array $argv, array $entorno): string

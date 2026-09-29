@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/06-funciones/tests/RangoTest.php
+
 function esta_en_rango(int $valor, int $minimo, int $maximo, bool $incluirExtremos = true): bool
 {
     // TODO: admite los extremos en cualquier orden.

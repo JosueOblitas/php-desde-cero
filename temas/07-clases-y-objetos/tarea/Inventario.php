@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/07-clases-y-objetos/tests/InventarioTest.php
+
 final class Inventario
 {
     public function __construct(private int $stock = 0)

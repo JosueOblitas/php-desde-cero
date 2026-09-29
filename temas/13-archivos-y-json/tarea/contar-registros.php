@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/13-archivos-y-json/tests/ContarRegistrosTest.php
+
 /** @return array{tipos:array<string,int>, errores:list<int>} */
 function contar_registros(string $ruta): array
 {

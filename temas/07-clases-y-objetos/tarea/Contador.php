@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/07-clases-y-objetos/tests/ContadorTest.php
+
 final class Contador
 {
     private int $valor = 0;

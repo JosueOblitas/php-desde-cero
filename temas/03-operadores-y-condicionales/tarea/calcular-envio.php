@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/03-operadores-y-condicionales/tests/EnvioTest.php
+
 function calcular_envio(float $monto): ?float
 {
     // TODO: devuelve null si el monto es negativo; 0 desde 100; 10 desde 50; 20 en otro caso.

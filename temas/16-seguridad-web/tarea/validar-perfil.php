@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/16-seguridad-web/tests/ValidarPerfilTest.php
+
 /** @param array<string,mixed> $datos @return array{errores:array<string,string>, html:?string} */
 function validar_perfil(array $datos): array
 {

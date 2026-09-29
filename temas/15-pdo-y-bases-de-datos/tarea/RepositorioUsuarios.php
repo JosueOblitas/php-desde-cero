@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/15-pdo-y-bases-de-datos/tests/RepositorioUsuariosTest.php
+
 final class RepositorioUsuarios
 {
     public function __construct(private PDO $pdo)

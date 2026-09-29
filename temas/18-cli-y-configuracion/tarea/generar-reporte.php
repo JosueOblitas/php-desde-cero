@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/18-cli-y-configuracion/tests/GenerarReporteTest.php
+
 /** @param list<array{nombre:string, cantidad:int}> $registros */
 function generar_reporte(array $registros, string $formato = 'texto'): string
 {

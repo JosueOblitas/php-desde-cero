@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/07-clases-y-objetos/tests/ProductoTest.php
+
 final class Producto
 {
     private string $nombre;

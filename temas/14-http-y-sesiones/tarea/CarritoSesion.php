@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/14-http-y-sesiones/tests/CarritoSesionTest.php
+
 final class CarritoSesion
 {
     private array $session;

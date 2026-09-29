@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+// Verifica esta tarea desde la raíz del proyecto:
+// ./vendor/bin/phpunit temas/10-poo-avanzada/tests/VendedorTest.php
+
 abstract class Empleado
 {
     public function __construct(protected float $sueldoBase)
