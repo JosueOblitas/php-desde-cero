@@ -1,0 +1,40 @@
+{
+    "name": "curso/php-desde-cero",
+    "description": "Material interactivo para aprender PHP con teoria, ejercicios y PHPUnit",
+    "type": "project",
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curso\\Tema12\\": "temas/12-namespaces-y-composer/tarea/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:tema1": "phpunit temas/01-sintaxis-y-salida/tests",
+        "test:tema2": "phpunit temas/02-variables-y-tipos/tests",
+        "test:tema3": "phpunit temas/03-operadores-y-condicionales/tests",
+        "test:tema4": "phpunit temas/04-arrays/tests",
+        "test:tema5": "phpunit temas/05-bucles/tests",
+        "test:tema6": "phpunit temas/06-funciones/tests",
+        "test:tema7": "phpunit temas/07-clases-y-objetos/tests",
+        "test:tema8": "phpunit temas/08-cadenas-y-regex/tests",
+        "test:tema9": "phpunit temas/09-fechas-y-tiempo/tests",
+        "test:tema10": "phpunit temas/10-poo-avanzada/tests",
+        "test:tema11": "phpunit temas/11-errores-y-excepciones/tests",
+        "test:tema12": "phpunit temas/12-namespaces-y-composer/tests",
+        "test:tema13": "phpunit temas/13-archivos-y-json/tests",
+        "test:tema14": "phpunit temas/14-http-y-sesiones/tests",
+        "test:tema15": "phpunit temas/15-pdo-y-bases-de-datos/tests",
+        "test:tema16": "phpunit temas/16-seguridad-web/tests",
+        "test:tema17": "phpunit temas/17-php-moderno/tests",
+        "test:tema18": "phpunit temas/18-cli-y-configuracion/tests"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
